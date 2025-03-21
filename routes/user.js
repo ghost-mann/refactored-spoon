@@ -13,4 +13,4 @@ router.get('/102', (req,res) => {
     res.send('this is user 102 route')
 })
 
-modules.export = router;
+module.exports = router;
